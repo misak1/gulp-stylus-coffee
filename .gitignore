@@ -1,0 +1,7 @@
+node_modules/async
+node_modules/coffee-script
+node_modules/gulp
+node_modules/gulp-coffee
+node_modules/gulp-stylus
+node_modules/gulp-util
+node_modules/gulp-watch

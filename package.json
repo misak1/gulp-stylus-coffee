@@ -1,0 +1,34 @@
+{
+  "name": "gulp-dev",
+  "version": "0.1.0",
+  "description": "gulp client side development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Misaki Shibata",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      "debowerify"
+    ]
+  },
+  "browserifyOpts": {
+    "cwd": "src/coffee",
+    "distDir": "./dist/assets/javascripts",
+    "entries": [
+      "./src/coffee/こんぱいるしたいやつ"
+    ]
+  },
+  "devDependencies": {
+    "async": "~0.9.0",
+    "coffee-script": "~1.7.1",
+    "gulp": "^3.7.0",
+    "gulp-coffee": "~1.4.3",
+    "gulp-stylus": "^1.0.2",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.1.0"
+  },
+  "dependencies": {}
+}
