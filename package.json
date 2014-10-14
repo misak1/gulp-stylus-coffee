@@ -8,19 +8,6 @@
   },
   "author": "Misaki Shibata",
   "license": "MIT",
-  "browserify": {
-    "transform": [
-      "coffeeify",
-      "debowerify"
-    ]
-  },
-  "browserifyOpts": {
-    "cwd": "src/coffee",
-    "distDir": "./dist/assets/javascripts",
-    "entries": [
-      "./src/coffee/こんぱいるしたいやつ"
-    ]
-  },
   "devDependencies": {
     "async": "~0.9.0",
     "coffee-script": "~1.7.1",
